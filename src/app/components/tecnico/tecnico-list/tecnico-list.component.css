@@ -22,3 +22,11 @@ table {
     margin-bottom: 2rem;
     color: green;
   }
+
+  .edit {
+    color: green;
+  }
+
+  .delete {
+    color: brown;
+  }
