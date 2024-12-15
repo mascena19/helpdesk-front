@@ -1,12 +1,13 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
-import { MatTableDataSource } from '@angular/material/table';
+import { MatTableDataSource  } from '@angular/material/table';
 import { Chamado } from 'src/app/models/chamado';
 
 @Component({
   selector: 'app-chamado-list',
   templateUrl: './chamado-list.component.html',
-  styleUrls: ['./chamado-list.component.css']
+  styleUrls: ['./chamado-list.component.css'],
+  
 })
 export class ChamadoListComponent implements OnInit {
 
@@ -38,9 +39,8 @@ export class ChamadoListComponent implements OnInit {
   }
 
   applyFilter(event: Event) {
+
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
-
-
 }
