@@ -1,0 +1,47 @@
+.container {
+    width: 45%;
+    margin: auto auto 5rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+h1, img, p {
+   text-align: center;
+}
+
+img {
+    height: 15rem;
+}
+
+.status-prioridade {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.status-prioridade mat-form-field {
+    width: 49%;
+}
+
+.descricao {
+    min-height: 6rem;
+    max-height:10rem;
+}
+
+button {
+    margin-top: .5rem;
+}
+
+
+.button-cadastrar {
+    background-color: green;
+    color: white;
+}
+
+p {
+    margin-top: 4rem;
+    opacity: .5;
+  }
