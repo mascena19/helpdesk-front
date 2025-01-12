@@ -1,12 +1,31 @@
-.container {
+/* Centralizando o h1 */
+body {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    align-items: center;      /* Centraliza o conteúdo verticalmente */
+    height: 100vh;             /* Faz o body ter altura total da tela */
+    margin: 0;                 /* Remove margens padrões do body */
 }
 
 h1 {
     margin-top: 1rem;
+    margin-right: 2rem;
     border: 1px solid rgb(161, 159, 159);
     padding: 1rem 10%;
     border-radius: 2rem;
+    color: green;
+}
+
+/* Container com .img alinhado à direita */
+.container {
+    display: flex;
+    justify-content: flex-end;  /* Alinha os itens à direita */
+    align-items: center;
+    width: 100%;                /* Garante que o container ocupe toda a largura */
+}
+
+.img {
+    width: 15%;
+    height: 7rem;
+    margin: .5rem;
 }
